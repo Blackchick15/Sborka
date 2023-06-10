@@ -141,3 +141,53 @@ p,
       height: 749px;
       margin-left: 350px;
     }
+
+    .Categories{
+      margin-left:500px ;
+      box-sizing: border-box;
+      width: 922px;
+      height: 250px;
+      
+      background: rgba(255, 255, 255, 0.01);
+      border: 1px solid #000000;
+    } 
+    .section-Categories{
+      margin-left: 750px ;
+      width: 500px;
+      height: 58px;
+      
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 81px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      
+      color: #000000;
+      
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .about-us-list{
+      display: flex;
+    }
+    .text{
+
+      box-sizing: border-box;
+
+
+width: 184.3px;
+height:  51px;
+
+font-family: 'Martel';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+text-align: center;
+
+color: #000000;
+
+border: 1px solid #000000;
+    }
