@@ -2,7 +2,7 @@
 
 body{
 height:100% ;
-width: 2000px;
+width: 100%;
 margin: 0;
 padding: 0;
 }
@@ -30,40 +30,46 @@ p,
     padding: 0;
   }
   .border {
-    
     border-bottom: 1px solid #ECECEC;
     background: #73C4F4;
+     position: absolute;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
     }
   .img{
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 2097px;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    width: 1200px;
     margin-bottom: 60px;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
     padding: 0;
-    
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
   .container{
     
-    width: 2097px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 100px;
     margin: 0;
     padding: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
   .top-navigation{
 
     align-items: center;
   }
   .top-conection{
+    /* position: absolute; */
     display: flex;
     width: 1098px;
     height: 50px;
-    margin-left: 100px;
+    margin-left: 150px;
    
     
   }
@@ -72,6 +78,22 @@ p,
     }
     .item{
     
+    }
+    .logo{
+      position: absolute;
+      width: 138px;
+      height: 43px;
+font-family: 'Martel';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 67px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .catalog{
       width: 178px;
@@ -130,14 +152,13 @@ p,
      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .section-video{
-      width: 334px;
+      width: 267px;
       height: 60px;
-      margin-left: 800px;
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
-      font-size: 56px;
-      line-height: 94px;
+      font-size: 48px;
+      line-height: 81px;
       display: flex;
       align-items: center;
       text-align: center;
@@ -145,11 +166,16 @@ p,
       color: #000000;
       
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      left: 0;
+      right: 0;
+      margin: 0 auto;
     }
     .video{
       width: 1200px;
-      height: 749px;
-      margin-left: 350px;
+      height: 400px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
     }
 
     .Categories{
@@ -160,9 +186,13 @@ p,
       
       background: rgba(255, 255, 255, 0.01);
       border: 1px solid #000000;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      margin-top: 25px;
+      
     } 
     .section-Categories{
-      margin-left: 750px ;
       width: 500px;
       height: 58px;
       
@@ -178,6 +208,10 @@ p,
       color: #000000;
       
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      margin-top: 16px;
     }
     .about-us-list{
       display: flex;
