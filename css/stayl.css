@@ -38,20 +38,15 @@ p,
      margin: 0 auto;
     }
   .img{
-    /* background-size: cover;
-    background-repeat: no-repeat; */
-    width: 1200px;
     margin-bottom: 60px;
-    /* height: 100vh; */
-    margin: 0;
-    padding: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    background: url(../img/Rectangle\ 76.png);
+    height: 100vh;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .container{
-    
-    width: 1200px;
+    /* width: 1200px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0;
@@ -61,7 +56,6 @@ p,
     margin: 0 auto;
   }
   .top-navigation{
-
     align-items: center;
   }
   .top-conection{
@@ -69,7 +63,7 @@ p,
     display: flex;
     width: 1098px;
     height: 50px;
-    margin-left: 150px;
+    margin-left: 350px;
    
     
   }
@@ -80,10 +74,11 @@ p,
     
     }
     .logo{
+      margin-left: 20px;
       position: absolute;
       width: 138px;
       height: 43px;
-font-family: 'Martel';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 40px;
@@ -162,6 +157,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       display: flex;
       align-items: center;
       text-align: center;
+      margin-top: 30px;
       
       color: #000000;
       
@@ -212,6 +208,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       right: 0;
       margin: 0 auto;
       margin-top: 16px;
+      
     }
     .about-us-list{
       display: flex;
