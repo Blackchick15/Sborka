@@ -30,12 +30,12 @@ p,
     padding: 0;
   }
   .border {
-    background: #000000;
-     position: absolute;
+    background-color: #010101;
      height: 100vh;
      background-position:center ;
      background-size: cover;
      background-repeat: no-repeat;
+    
     }
     .hero-button{
       padding: 10px 24px;
@@ -53,10 +53,10 @@ p,
      display: flex;
      align-items: center;
      border-radius: 15px;
-     background: rgba(255, 246, 34, 0.99);
-     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     background: linear-gradient(179.32deg, rgba(255, 246, 34, 0.99) 0.59%, rgba(255, 246, 34, 0.297) 137.54%);
+     
 
-     color: #1C1C1C;
+     color: #000000;
     }
     .text-button{
     position: absolute;
@@ -81,15 +81,15 @@ p,
 
     }
   .img{
-    margin-bottom: 60px;
+    /* margin-bottom: 60px;
     background-color: #000000;
     height: 100vh;
     background-position:center ;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    
   }
   .container{
-    /* width: 1200px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0;
@@ -102,18 +102,17 @@ p,
     align-items: center;
   }
   .top-conection{
-    /* position: absolute; */
     display: flex;
     width: 1098px;
     height: 50px;
-    margin-left: 650px;
+    margin-left: 40%;
   }
   .circle{
     position: absolute;
     width: 379px;
     height: 378px;
     margin-top: 261px;
-    margin-left: 75%;
+    margin-left: 65%;
     background: #FFFFFF;
 
     border-radius: 200px;
@@ -124,7 +123,7 @@ p,
     width: 455px;
     height: 455px;
     margin-top: 366px;
-    margin-left: 78%;
+    margin-left: 68%;
     background: #878787;
 
     border-radius: 220px;
@@ -277,23 +276,20 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       display: flex;
     }
     .text{
-
       box-sizing: border-box;
+      width: 184.3px;
+      height:  51px;
 
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 40px;
+      text-align: center;
 
-width: 184.3px;
-height:  51px;
+      color: #000000;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 40px;
-text-align: center;
-
-color: #000000;
-
-border: 1px solid #000000;
+      border: 1px solid #000000;
     }
 
     .h4-new{
@@ -320,6 +316,7 @@ border: 1px solid #000000;
       
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
       border: 1px solid #000000;
+      margin-bottom: 75px;
     }
 
     .new-goods-ul{
@@ -370,3 +367,55 @@ border: 1px solid #000000;
       
       color: #000000;
      }
+     
+      /* brands */
+
+      
+      .brands{
+        width: 707px;
+        height: 396px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-bottom: 50px;
+      } 
+
+      .brands_h4{
+        width: 531px;
+        height: 56px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 71px;
+        text-align: center;
+        
+        color: #000000;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-bottom: 22px;
+      }
+
+      .brands_div{
+        width: 706px;
+        height: 147px;
+        margin-bottom: 22px;
+        border: 1px solid #000000;
+      }
+      /* Our_advantages */
+      .Our_advantages{
+        width: 650px;
+        height: 200px; 
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-bottom: 94px;
+      }
+
+      .Our_advantages_div{
+        width: 650px;
+        height: 200px;
+        border: 1px solid #000000;
+      }
