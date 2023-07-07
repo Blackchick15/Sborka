@@ -31,14 +31,16 @@ p,
   }
   .border {
     background-color: #010101;
-     height: 100vh;
-     background-position:center ;
+    width: 100%;
+    height: 1000px;
+    flex-shrink: 0;
+     /* background-position:center ;
      background-size: cover;
-     background-repeat: no-repeat;
+     background-repeat: no-repeat; */
     
     }
     .hero-button{
-      padding: 10px 24px;
+    padding: 10px 24px;
      position: absolute;
      width: 345px;
      height: 66px; 
@@ -120,13 +122,15 @@ p,
   }
   .circle_grey{
     position: absolute;
-    width: 455px;
-    height: 455px;
+    width: 328px;
+    height: 400px;
     margin-top: 366px;
     margin-left: 68%;
-    background: #878787;
-
-    border-radius: 220px;
+    transform: rotate(-18.103deg);
+    flex-shrink: 0;
+    border-radius: 400px;
+    background: #FFF;
+    filter: blur(140px);
   }
   .top-conection>.item:not(:last-child) {
     margin-right: 55px;
