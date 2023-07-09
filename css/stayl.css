@@ -20,7 +20,7 @@ h5,
 h6,
 p,
 
-.ul {
+ul {
     margin-top: 0;
   }
 
@@ -252,44 +252,61 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
     .Categories{
-      margin-left:500px ;
       box-sizing: border-box;
-      width: 922px;
+      width: 1240px;
       height: 250px;
-      
-      background: rgba(255, 255, 255, 0.01);
-      border: 1px solid #000000;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
       margin-top: 25px;
       margin-bottom: 75px;
       
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+     
     } 
+    .container_Categories{
+      width: 1240px;
+      height: 520px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
     .section-Categories{
-      width: 500px;
-      height: 58px;
-      
+      display: flex;
+      width: 515px;
+      height: 60px;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
+    
+      color: #000;
+      text-align: center;
+      text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       font-family: 'Roboto';
+      font-size: 52px;
       font-style: normal;
       font-weight: 400;
-      font-size: 48px;
-      line-height: 81px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      
-      color: #000000;
-      
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      line-height: normal;
       left: 0;
       right: 0;
       margin: 0 auto;
       margin-top: 16px;
+      margin-bottom: 77px;
       
     }
+    .Categories_li{
+      width: 220px;
+      height: 200px;
+      flex-shrink: 0;
+      border-radius: 10px;
+      background: #FFF;
+      box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.30);
+    }
+
     .about-us-list{
       display: flex;
+    }
+    .about-us-list>.item:not(:last-child){
+     margin-right: 35px;
     }
     .text{
       box-sizing: border-box;
