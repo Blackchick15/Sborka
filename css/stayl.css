@@ -425,13 +425,16 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         width: 1240px;
         height: 440px;
         background: #FFF;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
       }
 
       .Our_advantages_div{
         width: 1240px;
         height: 200px;
         margin-top: 120px;
-        margin-left: 100px;
+        /* margin-left: 100px; */
         
       }
 
@@ -450,4 +453,18 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
         background: #FFF;
         box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.30);
+      }
+      .Our_advantages_p{
+        display: flex;
+        width: 235px;
+        height: 28px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
       }
