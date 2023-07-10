@@ -325,30 +325,31 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       border: 1px solid #000000;
     }
 
-    .h4-new{
-      width: 721px;
-      height: 40px;
+    .container_new{
+     width: 100%;
+     height: 500px;
+     background-color: #000000;
+    }
 
-     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    .h4-new{
+      width: 1071px;
+      height: 49px;
+      flex-shrink: 0;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
      display: flex;
      left: 0;
      right: 0;
      margin: 0 auto;
-     margin-bottom: 30px;
+     
+     
     }
      .h4-new>.item:not(:last-child) {
-      margin-right: 10px;
+      margin-right: 144px;
       }
     .new-goods{
-      box-sizing: border-box;
-      width: 901px;
-      height: 232px;
       left: 0;
       right: 0;
       margin: 0 auto;
-      
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-      border: 1px solid #000000;
       margin-bottom: 75px;
     }
 
@@ -357,48 +358,58 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     }
     .new_1{
-      width: 200px;
-      height: 40px;
-      
-      font-family: 'Roboto';
+      display: flex;
+      width: 261px;
+      height: 49px; 
+      flex-direction: column;
+    
+      flex-shrink: 0;
+
+      color: #FFF;
+      text-align: center;
+      text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      font-family: Martel;
+      font-size: 44px;
       font-style: normal;
       font-weight: 400;
-      font-size: 36px;
-      line-height: 61px;
-      text-align: center;
-      
-      color: #000000;
-      
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      line-height: normal;
+      margin-top: 64px;
     }
 
     
      .sales{
-      width: 250px;
-      height: 40px;
+      display: flex;
+      width: 261px;
+      height: 49px; 
+      flex-direction: column;
+      flex-shrink: 0;
       
-      font-family: 'Roboto';
+      color: #FFFFFF;
+      text-align: center;
+      font-family: Martel;
+      font-size: 44px;
       font-style: normal;
       font-weight: 400;
-      font-size: 36px;
-      line-height: 61px;
-      text-align: center;
-      
-      color: #000000;
+      line-height: normal;
+
+      margin-top: 64px;
      }
      
      .bestsellers{
-      width: 250px;
-      height: 40px;
-      
+      display: flex;
+      width: 261px;
+      height: 49px;
+      flex-direction: column;
+      flex-shrink: 0;
+      color: #FFFFFF;
+      text-align: center;
       font-family: 'Roboto';
+      font-size: 44px;
       font-style: normal;
       font-weight: 400;
-      font-size: 36px;
-      line-height: 61px;
-      text-align: center;
-      
-      color: #000000;
+      line-height: normal;
+
+      margin-top: 64px;
      }
      
       /* brands */
