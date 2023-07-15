@@ -77,7 +77,57 @@
   z-index: -1;
 }
 
+/* better_ */
+.better {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px 0;
+}
 
+.better__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.better__box-img {
+  width: 145px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.better {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px ;
+}
+
+.better__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.better__box-img {
+  width: 145px;
+  height: 100px;
+  object-fit: cover;
+  transition: .3s;
+}
+
+.better__box-text{
+ font-size: 25px;
+ font-weight: 600;
+}
+
+.better__box-img:hover {
+  transform: translateY(-10px);
+}
 
 
 
