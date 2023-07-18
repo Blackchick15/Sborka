@@ -114,6 +114,7 @@
   object-fit: cover;
   transition: .3s;
   margin: auto;
+  
 }
 
 .better__box-img:hover {
@@ -262,8 +263,5 @@
  font-weight: 400;
  color: #FFFFFF;
 }
-
-
-
-
+ 
 
