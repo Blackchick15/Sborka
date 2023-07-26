@@ -1,5 +1,13 @@
-* {
+html{
   box-sizing: border-box;
+}
+
+body{
+
+}
+
+a{
+  
 }
 
 .ul{
@@ -13,83 +21,17 @@
 }
 
 .container{
-  max-width:1440px ;
-  width: 100%;
-  margin: auto;
+  max-width: 1240px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
 }
 
 .header{
-  width: 100%;
-  height: 800px;
   background: linear-gradient(180deg, #130D38 0%, #070321 100%),
    linear-gradient(180deg, #130D38 0%, #070321 100%);
-  position: relative;
-  z-index: -2;
 }
 
-.header__nav{
-  padding: 15px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+.header__inner{
 
-.header__nav-links{
-  max-width: 600px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header__nav-link{
-  text-decoration: none;
-  color: #B7B5F3;
-  font-size: 26px;
-}
-
-.header__main {
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-  padding: 180px 0;
-}
-
-.header__main-text {
-  text-align: center;
-  max-width: 597px;
-}
-
-.header__main-text-title {
-  font-size: 68px;
-  color: white;
-}
-
-.header__main-text-title--span {
-  font-size: 68px;
-  font-weight: 600;
-  
-}
-
-.header__main-text-button {
-  padding: 10px 15px;
-  text-decoration: none;
-  color: #1c1c1c;
-  font-size: 44px;
-  font-weight: 600;
-  background: linear-gradient(180deg, rgba(255, 246, 34, 0.99) 0%, rgba(255, 246, 34, 0.30) 100%);
-  border-radius: 20px;
-}
-
-.header__main-wraper {
-  display: flex;
-  max-width: 604px;
-  width: 100%;
-  height: 350px;
-
-}
-
-
-
-.header__main-img{
-  gap: 22px;
 }
