@@ -2,12 +2,26 @@ html{
   box-sizing: border-box;
 }
 
-body{
+*,
+*::after
+*::before{
+  box-sizing: inherit;
+}
 
+body{
+  color: #000000;
+  
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 a{
-  
+text-decoration: none;
+color: #B7B5F3;
 }
 
 .ul{
@@ -21,10 +35,11 @@ a{
 }
 
 .container{
-  max-width: 1240px;
+  max-width: 1260px;
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto;
+  
 }
 
 .header{
@@ -33,5 +48,26 @@ a{
 }
 
 .header__inner{
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.mune__list{
+ display: flex;
+ gap: 12px;
+}
+
+.contact{
+ display: flex;
+ gap: 15px;
+}
+
+.mune__list-link{
+  text-transform: uppercase;
+}
+
+.phone{
+  margin-top: 10px;
 }
