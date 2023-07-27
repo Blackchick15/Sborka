@@ -16,7 +16,7 @@ body{
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.14;
 }
 
 a{
@@ -36,10 +36,10 @@ color: #B7B5F3;
 
 .container{
   max-width: 1260px;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto;
-  
 }
 
 .header{
@@ -52,6 +52,7 @@ color: #B7B5F3;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .mune__list{
@@ -62,6 +63,7 @@ color: #B7B5F3;
 .contact{
  display: flex;
  gap: 15px;
+ 
 }
 
 .mune__list-link{
@@ -70,4 +72,29 @@ color: #B7B5F3;
 
 .phone{
   margin-top: 10px;
+}
+
+@media (max-width: 1080px){
+  .header__inner{
+    flex-wrap: wrap;
+  }
+
+  .contact{
+    display: block;
+    width: 100%;
+    text-align: end;
+  }
+}
+
+@media (max-width: 1000px){
+  .container{
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+}
+
+@media (max-width: 515px){
+  .contact{
+    flex-direction: column;
+  }
 }
