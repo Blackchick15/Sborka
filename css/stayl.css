@@ -154,9 +154,60 @@ color: #B7B5F3;
   width: 1240px;
   height: 700px;
   border-radius: 45px;
- background: #FFF;
+  background: #FFF;
+  padding-left: 80px;
  }
 
+ .projects__div-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 150px;
+ }
+
+ .projects__div-img_li{
+  display: flex;
+  width: 250px;
+  height: 240px;
+  background: #D9D9D9;
+ }
+
+.social{
+  display: flex;
+  width: 1081px;
+  height: 100px;
+  border-radius: 21px;
+  background: #F1F1F1;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.social__div{
+  display: flex;
+  width: 212px;
+  height: 50px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social__box{
+  display: flex;
+  width: 180px;
+  height: 45px;
+  border-radius: 15px;
+  background: #FFF;
+  align-items: center;
+  padding-left: 22px;
+  gap: 13px;
+}
+
+.social__title{
+
+}
+
+.social__box-img{
+  border-radius: 16px;
+}
 
 /* @media (max-width: 1080px){
   .header__inner{
